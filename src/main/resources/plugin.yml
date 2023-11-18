@@ -1,0 +1,17 @@
+main: su.untode.nrmc.wildspawn.WildSpawn
+name: WildSpawn
+version: 1.0.0
+description: Respawn into the wilderness
+api-version: 1.19
+load: STARTUP
+author: https://github.com/undnull
+website: https://github.com/undnull/wildspawn
+commands:
+  wildspawn:
+    description: Configure per-player spawn points
+    aliases: [ws, wsp]
+    permission: wildspawn.command
+    usage: "Usage: /<command> <verb> [player_name]"
+permissions:
+  wildspawn.command:
+    default: true
